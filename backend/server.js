@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config()
 const colors = require('colors')
 
 //connection mongodb
-const mongoDB = require('./config/db')
+const mongoDB = require("./config/db.js")
 //PORT
 const port = process.env.PORT || 5000;
 //initializing express
